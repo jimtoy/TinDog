@@ -135,3 +135,49 @@ p{
     padding: 3% 2%;
 
 }
+
+/*Call To Action*/
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+}
+
+.cta-text{
+    font-family: Montserrat-Black, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#footer{
+    background-color: #ffffff;
+    padding: 7% 15%;
+}
+
+.copyright{
+    text-align: center;
+}
+
+.footer-images{
+    text-align: center;
+}
+
+.footer-image{
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        width: 60%;
+        rotate: revert;
+
+    }
+}
+

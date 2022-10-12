@@ -9,7 +9,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -63,15 +63,20 @@ p{
 
 /*Title Image*/
 .title-image {
-    width: 60%;
+    width: 25%;
     rotate: 25deg;
+    position: absolute;
+    right: 25%
 }
 
 /*Features*/
 
 #features{
     padding: 7% 15%;
+    background-color: white;
+    position: relative;
 }
+
 
 .icon{
     color: #ef8172;
